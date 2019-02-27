@@ -1,0 +1,79 @@
+#div-image{
+  height: 500px;
+  background-image: url("https://i.imgur.com/7xLoBJF.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-position: top;
+  image-rendering: -webkit-optimize-contrast;
+  opacity: 0.9;
+}
+
+#section_2{
+  height: 10px;
+}
+
+#overlay{
+  width: 100%;
+  height: 4000px;
+  background-color: black;
+  z-index: 9999;
+  position: absolute;
+  align-content: center;
+}
+
+#overlay_content{
+  color: #4B9CD3;
+  width: 600px;
+  margin-top: 300px;
+  text-align: center;
+  font-family: 'Lucida Console';
+  border: 1px dashed white;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blink{
+  animation: blinker 1.5s linear infinite;
+  margin-top: -10px;
+}
+
+#blink:hover{
+  -webkit-animation: 0;
+}
+
+@keyframes blinker {  
+  40% { opacity: .25;}
+  75% {opacity: 1;}
+}
+
+#navigation{
+  background-color: #13294B;
+}
+
+#icon_small{
+  width: 40px;
+  height: 40px;
+  margin-top: 0px;
+}
+
+#icon_over{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+#logo{
+  width: 50%;
+}
+
+#test{
+  width: 100%;
+}
